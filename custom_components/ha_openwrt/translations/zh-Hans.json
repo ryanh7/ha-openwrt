@@ -1,0 +1,52 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "name": "设备名称",
+                    "host": "设备ip",
+                    "username": "用户名",
+                    "password": "密码",
+                    "ssl": "ssl加密(https)",
+                    "verify_ssl": "校验ssl证书",
+                    "scan_interval": "数据更新间隔",
+                    "sensors": "传感器",
+                    "bandwidth_devices": "统计流量的接口",
+                    "buttons": "按钮"
+                },
+                "title": "Openwrt(ubus)"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "host": "设备ip",
+                    "username": "用户名",
+                    "password": "密码",
+                    "ssl": "ssl加密(https)",
+                    "verify_ssl": "校验ssl证书",
+                    "scan_interval": "数据更新间隔",
+                    "sensors": "传感器",
+                    "bandwidth_devices": "统计流量的接口",
+                    "buttons": "按钮"
+                },
+                "title": "Openwrt(ubus)"
+            }
+        }
+    },
+    "selector": {
+        "sensors": {
+            "options": {
+                "bandwidth": "流量",
+                "devices_count": "WIFI客户端数量"
+            }
+        },
+        "buttons": {
+            "options": {
+                "reboot": "重启"
+            }
+        }
+    }
+}

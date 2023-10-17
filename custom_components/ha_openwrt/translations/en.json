@@ -1,0 +1,52 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "name": "Device Name",
+                    "host": "Device IP",
+                    "username": "Username",
+                    "password": "Password",
+                    "ssl": "SSL(https)",
+                    "verify_ssl": "Verify SSL",
+                    "scan_interval": "Interval",
+                    "sensors": "Sensors",
+                    "bandwidth_devices": "Devices(bandwidth)",
+                    "buttons": "Buttons"
+                },
+                "title": "Openwrt(ubus)"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "host": "Device IP",
+                    "username": "Username",
+                    "password": "Password",
+                    "ssl": "SSL(https)",
+                    "verify_ssl": "Verify SSL",
+                    "scan_interval": "Interval",
+                    "sensors": "Sensors",
+                    "bandwidth_devices": "Devices(bandwidth)",
+                    "buttons": "Buttons"
+                },
+                "title": "Openwrt(ubus)"
+            }
+        }
+    },
+    "selector": {
+        "sensors": {
+            "options": {
+                "bandwidth": "Bandwidth",
+                "devices_count": "Devices Count"
+            }
+        },
+        "buttons": {
+            "options": {
+                "reboot": "Reboot"
+            }
+        }
+    }
+}

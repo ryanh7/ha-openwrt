@@ -1,0 +1,11 @@
+  {
+    "domain": "ha_openwrt",
+    "name": "Openwrt",
+    "config_flow": true,
+    "documentation": "https://github.com/ryanh7/ha-openwrt",
+    "dependencies": [],
+    "codeowners": ["ryanh7"],
+    "loggers": [],
+    "requirements": [],
+    "version": "1.0.0"
+  }

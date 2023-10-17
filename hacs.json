@@ -1,0 +1,7 @@
+{
+  "name": "Openwrt",
+  "homeassistant": "2023.6.0",
+  "country": "CN",
+  "domains": ["sensor", "button"],
+  "render_readme": true
+}
